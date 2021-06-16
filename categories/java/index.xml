@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Sherry | Personal blog</title>
-    <link>https://sherry955.github.io/tags/java/</link>
+    <link>https://sherry955.github.io/categories/java/</link>
     <description>Recent content in Java on Sherry | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 16 Jun 2021 23:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 23:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>測試文章</title>
       <link>https://sherry955.github.io/blog/202106162/</link>
@@ -14,17 +14,6 @@
       
       <guid>https://sherry955.github.io/blog/202106162/</guid>
       <description>Hello System.out.println(&amp;#34;Hello !&amp;#34;); </description>
-    </item>
-    
-    <item>
-      <title>How To Use Markdown</title>
-      <link>https://sherry955.github.io/blog/20210616/</link>
-      <pubDate>Wed, 16 Jun 2021 22:11:00 +0800</pubDate>
-      
-      <guid>https://sherry955.github.io/blog/20210616/</guid>
-      <description>Hello World
-I&amp;rsquo;m Sherry
-一級標題 二級標題 六級標題(markdown最小支援) This is test(粗體) blog (斜體)</description>
     </item>
     
   </channel>
