@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on Sherry | Personal blog</title>
+    <link>https://sherry955.github.io/tags/github/</link>
+    <description>Recent content in GitHub on Sherry | Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 16 Jun 2021 22:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Use Github</title>
+      <link>https://sherry955.github.io/blog/test/</link>
+      <pubDate>Wed, 16 Jun 2021 22:11:00 +0800</pubDate>
+      
+      <guid>https://sherry955.github.io/blog/test/</guid>
+      <description>Hello World
+I&amp;rsquo;m Sherry
+一級標題 二級標題 六級標題(markdown最小支援) This is test(粗體) blog (斜體)</description>
+    </item>
+    
+  </channel>
+</rss>
