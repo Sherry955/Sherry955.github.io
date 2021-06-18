@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Sherry | Personal blog</title>
-    <link>https://sherry955.github.io/categories/java/</link>
-    <description>Recent content in Java on Sherry | Personal blog</description>
+    <title>Other on Sherry | Personal blog</title>
+    <link>https://sherry955.github.io/tags/other/</link>
+    <description>Recent content in Other on Sherry | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 16 Jun 2021 23:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 23:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>測試文章</title>
       <link>https://sherry955.github.io/blog/202106162/</link>
       <pubDate>Wed, 16 Jun 2021 23:11:00 +0800</pubDate>
       
       <guid>https://sherry955.github.io/blog/202106162/</guid>
-      <description>Hello print(&amp;#34;Hello !&amp;#34;); </description>
+      <description>print(&amp;#39;This is test.&amp;#39;) </description>
     </item>
     
   </channel>
