@@ -6,14 +6,14 @@
     <description>Recent content on Sherry | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 16 Jun 2021 23:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jul 2021 23:18:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>測試文章</title>
-      <link>https://sherry955.github.io/blog/202106162/</link>
-      <pubDate>Wed, 16 Jun 2021 23:11:00 +0800</pubDate>
+      <title>Eclipse properties 無法正常顯示中文</title>
+      <link>https://sherry955.github.io/blog/20210720/</link>
+      <pubDate>Tue, 20 Jul 2021 23:18:00 +0800</pubDate>
       
-      <guid>https://sherry955.github.io/blog/202106162/</guid>
-      <description>print(&amp;#39;This is test.&amp;#39;) print(&amp;#39;This is test.&amp;#39;) </description>
+      <guid>https://sherry955.github.io/blog/20210720/</guid>
+      <description>設定如下 :  Eclipse -&amp;gt; Help-&amp;gt; Install new software&amp;hellip; -&amp;gt; 點選Add按鈕, 會彈出視窗， 再如下輸入:   Name = propedit</description>
     </item>
     
   </channel>
