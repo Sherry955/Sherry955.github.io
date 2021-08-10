@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sherry | Personal blog</title>
-    <link>https://sherry955.github.io/</link>
-    <description>Recent content on Sherry | Personal blog</description>
+    <title>Eclipse on Sherry | Personal blog</title>
+    <link>https://sherry955.github.io/tags/eclipse/</link>
+    <description>Recent content in Eclipse on Sherry | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 10 Aug 2021 22:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 22:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eclipse trget runtime is not defined</title>
       <link>https://sherry955.github.io/blog/20210810/</link>
@@ -23,16 +23,6 @@
       
       <guid>https://sherry955.github.io/blog/20210720/</guid>
       <description>設定如下 :  Eclipse -&amp;gt; Help-&amp;gt; Install new software&amp;hellip; -&amp;gt; 點選Add按鈕, 會彈出視窗， 再輸入如下:   Name = propedit</description>
-    </item>
-    
-    <item>
-      <title>Git 常用指令</title>
-      <link>https://sherry955.github.io/blog/20210811/</link>
-      <pubDate>Sun, 30 Jun 2019 10:18:00 +0800</pubDate>
-      
-      <guid>https://sherry955.github.io/blog/20210811/</guid>
-      <description>- stash 有時處理工作到一半, 需要臨時切換到其他分支修改問題時, 可使用stash做暫存, 待處理完畢後再切回原分支取回暫存的檔案.
-指令如下: * 暫存檔案: git stash* 暫存檔案並給予說明: git stash save &#39;說明&#39;* 查看暫存列表: git stash list* 取回暫存檔案: git stash pop stash@{0} * (0的數字:要看你要取回暫存列表的哪一個)* 查看檔案內容: git show stash@{0}*清空暫存檔案: git stash clear- checkout 切換分支 、恢復刪除檔案</description>
     </item>
     
   </channel>

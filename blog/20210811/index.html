@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="I&#39;m Sherry ~">
+  <meta name="description" content="Git">
   <meta name="author" content="Sherry">
   <meta name="generator" content="Hugo 0.83.1" />
 
@@ -113,150 +113,70 @@
 </header>
 <!-- /navigation -->
 
-
-
 <section class="section-sm">
   <div class="container">
     <div class="row">
+      <div class="col-lg-9 mx-auto">
       
-      <div class="col-lg-4 pr-lg-5">
-  
-  <div class="widget">
-    
-    <h4 class="widget-title"></h4>
-    
-    <img src="https://sherry955.github.io/images/bear2.jpg" alt=""
-      class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-    
-    <p><p>Hi, I&rsquo;m Sherry</p>
-<p>紀錄遇到問題、相關筆記</p>
-</p>  
-    <a href="https://sherry955.github.io/about/" class="btn btn-outline-primary">Know More</a>
-    
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Category</h4>
-    <ul class="list-unstyled">
-      <li><a
-          href="/categories/eclipse">Eclipse</a>
-      </li>
-      <li><a
-          href="/categories/git">Git</a>
-      </li>
-    </ul>
-  </div>
-  
-  <div class="widget">
-    <h4 class="widget-title">Tag</h4>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/tags/eclipse">Eclipse</a></li>
-      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-          href="/tags/git">Git</a></li>
-    </ul>
-  </div>
-
-  
-
-  
-</div>
-
-      
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
+        <h2>Git 常用指令</h2>
+        <div class="mb-3 post-meta">
+          <span>By Sherry</span>
           
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>2019-06-30</span>
           
-          <div class="col-md-12 mb-4">
-            <article class="card">
-              <div class="card-body px-0">
-                
-                <a href="https://sherry955.github.io/blog/20210810/" class="h3 d-block my-3">Eclipse trget runtime is not defined</a>
-                <div class="mb-3 post-meta">
-                  <span>By Sherry</span>
-                  
-                  <span class="border-bottom border-primary px-1 mx-1"></span>
-                  <span>2021-08-10</span>
-                  
-                  <span class="border-bottom border-primary px-1 mx-1"></span>
-                  
-                  <a href="/categories/eclipse"
-                    class="text-primary">
-                    Eclipse
-                  </a>
-                  
-                </div>
-              
-                <p class="card-text">Eclipse 設定</p>
-                <a href="https://sherry955.github.io/blog/20210810/" class="btn btn-outline-primary">read more</a>
-              </div>
-            </article>
-          </div>
+           <span class="border-bottom border-primary px-2 mx-1"></span>
           
-          <div class="col-md-12 mb-4">
-            <article class="card">
-              <div class="card-body px-0">
-                
-                <a href="https://sherry955.github.io/blog/20210720/" class="h3 d-block my-3">Eclipse properties 無法正常顯示中文</a>
-                <div class="mb-3 post-meta">
-                  <span>By Sherry</span>
-                  
-                  <span class="border-bottom border-primary px-1 mx-1"></span>
-                  <span>2021-07-20</span>
-                  
-                  <span class="border-bottom border-primary px-1 mx-1"></span>
-                  
-                  <a href="/categories/eclipse"
-                    class="text-primary">
-                    Eclipse
-                  </a>
-                  
-                </div>
-              
-                <p class="card-text">Eclipse 設定</p>
-                <a href="https://sherry955.github.io/blog/20210720/" class="btn btn-outline-primary">read more</a>
-              </div>
-            </article>
-          </div>
-          
-          <div class="col-md-12 mb-4">
-            <article class="card">
-              <div class="card-body px-0">
-                
-                <a href="https://sherry955.github.io/blog/20210811/" class="h3 d-block my-3">Git 常用指令</a>
-                <div class="mb-3 post-meta">
-                  <span>By Sherry</span>
-                  
-                  <span class="border-bottom border-primary px-1 mx-1"></span>
-                  <span>2019-06-30</span>
-                  
-                  <span class="border-bottom border-primary px-1 mx-1"></span>
-                  
                   <a href="/categories/git"
                     class="text-primary">
                     Git
                   </a>
-                  
-                </div>
-              
-                <p class="card-text">Git</p>
-                <a href="https://sherry955.github.io/blog/20210811/" class="btn btn-outline-primary">read more</a>
-              </div>
-            </article>
-          </div>
-          
+           
         </div>
-      </div>
-      
-      <div class="col-12 mt-5">
         
+        <div class="content mb-5">
+          <hr>
+<h3 id="--stash">- stash</h3>
+<p>有時處理工作到一半, 需要臨時切換到其他分支修改問題時, 可使用stash做暫存, 待處理完畢後再切回原分支取回暫存的檔案.</p>
+<h6 id="指令如下">指令如下:</h6>
+<pre><code>* 暫存檔案: git stash
 
+* 暫存檔案並給予說明: git stash save '說明'
 
+* 查看暫存列表: git stash list
+
+* 取回暫存檔案: git stash pop stash@{0} 
+  * (0的數字:要看你要取回暫存列表的哪一個)
+  
+* 查看檔案內容: git show stash@{0}
+  
+*清空暫存檔案: git stash clear
+</code></pre><h3 id="--checkout">- checkout</h3>
+<p>切換分支 、恢復刪除檔案</p>
+<h6 id="指令如下-1">指令如下:</h6>
+<pre><code>* 切換分支 : git checkout 分支名
+
+* 建立新分支並切換到新分支 : git checkout -b 分支名
+
+* 恢復刪除檔案 : git checkout 刪除檔案
+</code></pre>
+        </div>
+
+        
+        
+        
       </div>
     </div>
   </div>
-</section>
 
+    <script src="https://utteranc.es/client.js"
+        repo="sherry955/Sherry955.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+</section>
 
 
 
