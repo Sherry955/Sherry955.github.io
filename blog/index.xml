@@ -6,7 +6,36 @@
     <description>Recent content in Blogs on Sherry | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 10 Aug 2021 22:11:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 23:18:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot部署至伺服器，卻無法顯示頁面</title>
+      <link>https://sherry955.github.io/blog/20211023/</link>
+      <pubDate>Fri, 22 Oct 2021 23:18:00 +0800</pubDate>
+      
+      <guid>https://sherry955.github.io/blog/20211023/</guid>
+      <description>在本機開發測試都能正常顯示網頁，但當專案匯出war部署至tomcat上，網頁卻顯示一片空白&amp;hellip; 解決方式:   開啟pom.xml檔案：檢查是否在&amp;lt;properties&amp;gt;有設定主類位置 &amp;lt;start-class&amp;gt;com.xxx.xxxApplication&amp;lt;/start-class&amp;gt; 檢查頁面放置路徑 專案 &amp;gt; Properties &amp;gt; Deployment Assembly &amp;gt; 檢查是否Source有指定頁面放置路徑，沒有則Add 重新匯出war 再次部署至tomcat上即可   2.</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot啟動錯誤: 找不到或無法加載主類</title>
+      <link>https://sherry955.github.io/blog/20211022/</link>
+      <pubDate>Fri, 22 Oct 2021 22:10:00 +0800</pubDate>
+      
+      <guid>https://sherry955.github.io/blog/20211022/</guid>
+      <description>Eclipse 啟動 Spring Boot時，顯示錯誤：找不到或無法加載主類
+解決方式:   專案右鍵 &amp;gt; Run As &amp;gt; Maven clean 再 Maven install 專案右鍵 &amp;gt; Refresh &amp;gt; 再次啟動Spring Boot 即可   </description>
+    </item>
+    
+    <item>
+      <title>Eclipse無法匯出war檔</title>
+      <link>https://sherry955.github.io/blog/20211021/</link>
+      <pubDate>Fri, 22 Oct 2021 21:18:00 +0800</pubDate>
+      
+      <guid>https://sherry955.github.io/blog/20211021/</guid>
+      <description>在Eclipse 想將 Spring Boot專案匯出war檔，卻發現Web project選單沒有專案名稱而無法匯出&amp;hellip;.. ​
+解決方式:  專案右鍵 &amp;gt; Properties &amp;gt; Project Facets &amp;gt; 檢查圖片( 如圖 ) 是否有勾選 &amp;gt; 設定完成即可</description>
+    </item>
+    
     <item>
       <title>Eclipse trget runtime is not defined</title>
       <link>https://sherry955.github.io/blog/20210810/</link>
@@ -28,7 +57,7 @@
     <item>
       <title>Git 常用指令</title>
       <link>https://sherry955.github.io/blog/20210811/</link>
-      <pubDate>Sun, 30 Jun 2019 10:18:00 +0800</pubDate>
+      <pubDate>Fri, 22 May 2020 21:18:00 +0800</pubDate>
       
       <guid>https://sherry955.github.io/blog/20210811/</guid>
       <description>- stash 有時處理工作到一半, 需要臨時切換到其他分支修改問題時, 可使用stash做暫存, 待處理完畢後再切回原分支取回暫存的檔案.

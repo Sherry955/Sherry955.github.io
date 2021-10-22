@@ -6,11 +6,11 @@
     <description>Recent content in Git on Sherry | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 30 Jun 2019 10:18:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 May 2020 21:18:00 +0800</lastBuildDate><atom:link href="https://sherry955.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git 常用指令</title>
       <link>https://sherry955.github.io/blog/20210811/</link>
-      <pubDate>Sun, 30 Jun 2019 10:18:00 +0800</pubDate>
+      <pubDate>Fri, 22 May 2020 21:18:00 +0800</pubDate>
       
       <guid>https://sherry955.github.io/blog/20210811/</guid>
       <description>- stash 有時處理工作到一半, 需要臨時切換到其他分支修改問題時, 可使用stash做暫存, 待處理完畢後再切回原分支取回暫存的檔案.
